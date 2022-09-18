@@ -73,7 +73,7 @@ img {
     line-height: 2;
 }
 .section-two.text-two {
-    font-size: 700;
+    font-weight: 700;
     white-space: nowrap;
     text-decoration: line-through;
 }
@@ -87,7 +87,7 @@ img {
 .footer-subject {
     color: red;
     background: rgb(0, 24, 60);
-    max-height: auto;
+    
 }
 .section-three.text-four {
     padding: 0 300px;
