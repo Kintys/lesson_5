@@ -1,0 +1,107 @@
+body {
+    font-size: 20px;
+    max-width: 90%;
+    margin: auto;
+    text-shadow: 2px 3px 7px rgb(3, 81, 81);
+    font-weight: 700;
+}
+
+.section-text-three ~ p {
+    background-color: rgb(92, 157, 1);
+    color: rgb(57, 3, 3);
+}
+
+.section-text-three + p {
+    width: 400px;
+
+    background-color: tomato;
+    color: rgb(57, 3, 3);
+}
+.section-text-three > p {
+    background-color: chartreuse;
+    color: rgb(57, 3, 3);
+}
+
+.section-headline * {
+    font-family: "Pacifico", serif;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: lowercase;
+    line-height: 2;
+    text-indent: 100px;
+}
+.section-headline #headline {
+    text-shadow: 3px 2px 8px rgb(92, 157, 1);
+    text-shadow: -2px -3px 8px rgb(92, 157, 1);
+    font-family: "NunitoSans", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: crimson;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+}
+
+.section-text-one > .section-one.text-one {
+    text-decoration: overline;
+}
+* p {
+    font-family: "NunitoSans", sans-serif;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+img {
+    padding-left: 500px;
+}
+.section-two.text-one {
+    font-style: italic;
+    text-align: right;
+    padding: 0px 0px 0px 200px;
+    font-weight: 700;
+}
+.section-one.text-three {
+    font-weight: 900;
+    text-align: left;
+    padding: 0px 200px 0px 0px;
+}
+.section-one.text-three {
+    text-decoration: line-through;
+    line-height: 2;
+}
+.section-two.text-two {
+    font-size: 700;
+    white-space: nowrap;
+    text-decoration: line-through;
+}
+.section-two.text-three {
+    word-spacing: 20px;
+}
+.section-two.text-five > span {
+    background-color: #7a956b;
+}
+
+.footer-subject {
+    color: red;
+    background: rgb(0, 24, 60);
+    max-height: auto;
+}
+.section-three.text-four {
+    padding: 0 300px;
+}
+.section-three.text-one {
+    margin: 50px 300px;
+    padding-right: 100px;
+}
+.section-two.text-four {
+    font-family: "NunitoSans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.footer-link {
+    color: violet;
+    text-decoration: underline;
+}
